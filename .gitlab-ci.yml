@@ -1,5 +1,5 @@
 # CI/CD File for Deploying a Hexo Site to Gitlab Pages.
-image: node: 8.11.4
+image: node:8.11.4
 
 # Cache modules across all branches and jobs
 cache:
@@ -20,4 +20,3 @@ pages:
   artifacts:
     paths:
     - public
-    
